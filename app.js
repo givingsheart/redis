@@ -1,7 +1,7 @@
 var express = require('express'),
 	app = express()
 
-app.get('/', function(req, res) {
+app.get('*', function(req, res) {
 	res.send('서버 응답중')
 })
 
